@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    
+    <style>
+        body {
+             
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(astroo.jpg);
+            background-size: cover;
+            color: #fff;
+            background-repeat: no-repeat;
+        
+        }
+        nav {
+            background-color: #276678;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            width:900px;
+        }
+        .form-group {
+            margin: 10px 0;
+        }
+        .form-group label {
+            display: block;
+            
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            
+        }
+        .form-group button {
+            background-color: #122c3d;
+            color: #fff;
+            padding: 20px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin:10px;
+            
+        }
+        .form-group :hover {
+            background-color: #34a0a4;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="facts.html">Cool Facts</a>
+        <a href="mysteries.html">Unsolved Mysteries</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section>
+        <h2>Get in Touch</h2>
+        <p>Have a space fact to share or a question about the universe? We’d love to hear from you!</p><br><br>
+        
+        <form>
+            <div class="form-group">
+                <label for="fname"><b>First Name</b></label>
+                <input type="text" id="name" name="name" required>
+            </div><br>
+            <div class="form-group">
+                <label for="fname"><b>Last Name</b></label>
+                <input type="text" id="name" name="name" required>
+                </div><br>
+
+
+
+            <div class="form-group">
+                <label for="email"><b>Email</b></label>
+                <input type="email" id="email" name="email" required>
+            </div><br>
+            <div class="form-group">
+                <label for="message"><b>Your Message</b></label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div><br>
+
+            <div class="form-group">
+                <label for="message"><b>Any Query?</b></label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div><br>
+
+            <div class="form-group">
+                <label for="message"><b>Which space fact fascinates you the most?</b></label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div><br>
+
+            <div class="form-group">
+                <label for="fsubmit"><b>We value your opinion! How did you find your experience on our website?</b></label>
+                <textarea id="fsubmit" name="message" rows="5" required></textarea>
+            </div><br>
+    
+
+
+
+
+
+
+            <div class="form-group">
+                <button id="hoverButton">Submit</button>
+
+<script>
+  const button = document.getElementById('hoverButton');
+
+  button.addEventListener('mouseover', function () {
+    button.textContent = 'Ready to Submit?';
+  });
+
+  button.addEventListener('mouseout', function () {
+    button.textContent = 'Submit';
+  });
+</script>
+
+            </div><br><br><br><br><br><br><br>
+            
+<h2 style="font-style: italic;font-weight: bold;color:rgba(34, 197, 202, 0.849);text-shadow:  2px 2px 4px rgba(0,0,0,0.7);">
+    "The universe is under no obligation to make sense to you." 
+</h2><h2>-Neil deGrasse Tyson.</h2>
+    
+
+
+
+
+
+        </form>
+    </section>
+</body>
+</html>
+

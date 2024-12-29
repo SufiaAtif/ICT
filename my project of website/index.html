@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Facts and Mysteries - Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0b1d2b;
+            color: #fff;
+            
+        }
+        header {
+            background-image: url(img7.jpg); /* Replace with your desired image URL */
+            background-size: cover;
+            background-position: center;
+            padding: 60px 20px;
+            text-align: center;
+            color: #fff;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        nav {
+            background-color: #276678;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .fact-box {
+      background-color: #333333;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .button {
+      background-color: #173953;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="facts.html">Cool Facts</a>
+        <a href="mysteries.html">Unsolved Mysteries</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <header>
+        <h1>Welcome to Space Facts and Mysteries!</h1>
+        <p>Discover the wonders of the universe, from fascinating facts about planets to the mysteries that scientists are still trying to solve. Whether you're a space enthusiast or just curious, this is your guide to the cosmos.</p>
+        
+    </header>
+</body>
+<br><br><br>
+<h1 style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);text-align: center;font-size: 40px;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);border: 2px;"><strong>
+   <sub> Who we are?</sub></strong>
+</h1>
+<p style="font-size:25px ;text-shadow: #fff;" >
+ <i>"We are passionate about bringing the universe closer to you. Whether you're a budding astronomer, a seasoned space enthusiast, or simply curious about the cosmos, our mission is to educate, inspire, and ignite a sense of wonder about the vast expanse beyond our planet."
+ <br> <br><strong >DO YOU KNOW?</strong> Neutron stars are so dense that a spoonful of their material would weigh about 6 billion tons."
+  
+  
+  
+  <div id="fact-box" class="fact-box"></div>
+    <button class="button" onclick="showRandomFact()">Get Another Fact</button>
+    <script>
+
+const spaceFacts = [
+      "A day on Venus is longer than a year on Venus! Venus takes longer to rotate on its axis than to orbit the Sun."];
+      function showRandomFact() {
+      const randomIndex = Math.floor(Math.random() * spaceFacts.length);
+      const fact = spaceFacts[randomIndex];
+      document.getElementById('fact-box').textContent = fact;
+    }
+
+    // Display a random fact when the page loads
+    window.onload = showRandomFact;
+
+
+
+    </script>
+
+
+
+
+ </i>   
+</p><br><br></border><br><br>
+
+
+
+
+
+
+
+
+<div style="height:1200px;background-image:url(ss.jpg) ;background-size: cover;padding:20px ;text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);"><br><br>
+<br>
+
+    <h1 style="text-align: center;font-style: unset ;font-weight: 300px;font-size:50px ;">What makes us Different..</h1><br><br><br>
+<h1>PASSION FOR COSMOS</h1>
+<P style="font-size:23px ;">We don’t just share information; we live and breathe space exploration. Our team is dedicated to making complex space concepts accessible and inspiring for everyone.
+</P><br><br>
+<h1>UP-TO-DATE INSIGHTS</h1>
+<p style="font-size:23px ;">From the latest missions to groundbreaking discoveries, we ensure you’re always in the loop with accurate and timely updates about the universe.
+</p><br><br>
+<h1>INTERACTIVE LEARNING</h1>
+<P style="font-size:23px ;">Engage with immersive visuals, detailed simulations, and interactive tools that bring the wonders of space closer than ever before.
+</P><br><br>
+<h1>COMMUNITY DRIVEN APPROACH</h1>
+<p style="font-size:23px ;">We’re more than just a website. we’re a community of space enthusiasts, researchers, and dreamers working together to explore the unknown.</P>
+    <br><br>
+    <h1>INSPIRING A SENSE OF WONDER</h1>
+<p style="font-size:23px ;">We go beyond facts and figures, crafting stories and experiences that reignite your curiosity about the universe and your place within it.
+</P>
+</div>
+
+<footer style="background-color: rgb(4, 1, 32);font-style: oblique;height: 400px;background-size: cover ;color:#fff">
+    <br><br><h3>
+<label for:id="fsubs">Subscribe for more updates</label><br></h3>
+<input type="button",id="fsubs">SUBSCRIBE</input>
+
+
+<table><tr><td>
+    <div class="footer-container">
+      
+      <div class="footer-about">
+        <h3>About Space Explorer</h3>
+        <p>Space Explorer is your gateway to the cosmos. We aim to inspire and educate by providing comprehensive information about the universe, space missions, and celestial phenomena.</p>
+      </div></td>
+  
+      <td>
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#missions">Space Missions</a></li>
+          <li><a href="#solar-system">Solar System</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div></td><br>
+  
+      <td>
+      <div class="footer-updates">
+        <h3>Latest Updates</h3>
+        <p>Stay up to date with the latest discoveries and advancements in space exploration.</p>
+        
+        
+      </div></td>
+  
+      <td>
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="mailto:info@spaceexplorer.com">info@spaceexplorer.com</a></p>
+        <p>Phone: +1 (800) 123-SPACE</p>
+        <p>Follow us:  
+          <a href="https://twitter.com" target="_blank">Twitter</a> | 
+          <a href="https://instagram.com" target="_blank">Instagram</a> | 
+          <a href="https://facebook.com" target="_blank">Facebook</a>
+        </p>
+      </div></td><br>
+    
+  
+    <td>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Space Explorer. All rights reserved.</p>
+      <p><a href="#privacy-policy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+    </div></td></tr></table>
+  </footer>
+  <script>
+window.onload = function() {
+  alert("Page is fully loaded!");
+};
+
+
+
+
+  </script>
+  
+
+
+
+
+
+</html>
+
